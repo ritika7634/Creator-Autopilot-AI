@@ -7,7 +7,7 @@ const root = __dirname;
 const port = process.env.PORT || 3000;
 
 function loadEnvFile() {
-  const candidates = [".env", ".env.example"];
+  const candidates = [".env", ".env"];
 
   for (const fileName of candidates) {
     const envPath = path.join(root, fileName);

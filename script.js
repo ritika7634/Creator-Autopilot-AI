@@ -113,7 +113,7 @@ function createChatWidget() {
           placeholder="Ask the assistant something..."
         ></textarea>
         <div class="assistant-actions">
-          <p class="assistant-note" id="assistantNote">Connect a Gemini API key in .env to enable responses.</p>
+          <p class="assistant-note" id="assistantNote">Get your doubts fixed with AI responses.</p>
           <button class="primary-button small-button" id="assistantSend" type="submit">Send</button>
         </div>
       </form>
